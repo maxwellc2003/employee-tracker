@@ -20,5 +20,4 @@ CREATE TABLE employee (
   last_name VARCHAR(30) NOT NULL,
   role_id INTEGER NOT NULL,
   manager_id INTEGER,
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
